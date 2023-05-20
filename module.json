@@ -89,6 +89,6 @@
     }
   ],
    "url": "https://www.dracihlidka.cz",
-   "manifest": "https://www.dropbox.com/s/ceh9mmyizvy03i5/module.json?dl=1",
-   "download": "https://www.dropbox.com/s/r0pvp0yqu0ey2pj/draci-hlidka.zip?dl=1"
+   "manifest": "https://raw.githubusercontent.com/DraciHlidka/draci-hlidka-foundryvtt/main/module.json",
+   "download": "https://github.com/DraciHlidka/draci-hlidka-foundryvtt/releases/download/v0.9.0/draci-hlidka-v0.9.0.zip"
  }
