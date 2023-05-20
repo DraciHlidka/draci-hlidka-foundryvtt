@@ -1,0 +1,94 @@
+{   
+   "id": "draci-hlidka",   
+   "title": "Dračí Hlídka (Official)",   
+   "description": "Czech language only. Kompendium modul pro hru Dračí Hlídka. Pro spuštění je třeba systém Sandbox System Builder.",   
+   "authors": [
+    {
+      "name": "Pavel 'Tirus' Ondruzs"
+    },
+    {
+      "name":"Petr 'Barbog' Hanták"
+    }
+  ],
+   "version": "0.9.0",
+   "compatibility": {
+    "minimum": "10",
+    "verified": "10.291",
+    "maximum": "10"
+  },
+  "system": ["sandbox"],
+  "relationships": {
+    "systems": [{
+      "id": "sandbox",
+      "type": "system",
+      "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/dev_0.14.0/system.json",
+      "compatibility": {
+        "verified": "0.14.0(Beta)"
+      }
+    }],
+    "requires": [{
+      "id": "lib-wrapper",
+      "type": "module",
+      "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+      "compatibility": {
+        "minimum": "1.12.6.0",
+        "verified": "1.12.11.0"
+      }
+    },
+    {
+      "id": "compendium-folders",
+      "type": "module",
+      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json",
+      "compatibility": {
+        "verified": "2.5.6"
+      }
+    }
+  ]
+  },
+   "styles": [
+    "./styles/dh-style.css"
+	],
+  "scripts": [
+    "./scripts/dh-settings.js"
+  ],
+   "packs": [
+    {
+      "name": "deniky",
+      "label": "Deníky postav/bytostí",
+      "system": "sandbox",
+      "path": "./packs/deniky.db",
+      "type": "Actor"
+    },
+	{
+      "name": "bestiar",
+      "label": "Bestiář",
+      "system": "sandbox",
+      "path": "./packs/bestiar.db",
+      "type": "Actor"
+    },
+    {
+      "name": "pravidla",
+      "system": "sandbox",
+      "label": "Herní mechaniky + Kompendium",
+      "path": "./packs/pravidla.db",
+      "type": "Item"
+    },
+    {
+      "name": "manual",
+      "label": "Nápověda k modulu",
+      "system": "sandbox",
+      "path": "./packs/manual.db",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "makra",
+      "label": "Makra",
+      "system": "sandbox",
+      "path": "./packs/makra.db",
+      "type": "Macro"
+    }
+  ],
+   "url": "https://www.dracihlidka.cz",
+   "manifest": "https://www.dropbox.com/s/ceh9mmyizvy03i5/module.json?dl=1",
+   "download": "https://www.dropbox.com/s/r0pvp0yqu0ey2pj/draci-hlidka.zip?dl=1"
+ }
