@@ -14,7 +14,7 @@ Požadavky
 
 Obsah souboru rozbalte do složky FoundryVTT-Data\Data\systems
 
--   Instalace modulu Dračí Hlídka vložením odkazu přes katalog - 
+-   Instalace modulu Dračí Hlídka vložením odkazu přes katalog - <https://raw.githubusercontent.com/DraciHlidka/draci-hlidka-foundryvtt/main/module.json>
 
 -   Instalace pomocných modulů z katalogu
 
