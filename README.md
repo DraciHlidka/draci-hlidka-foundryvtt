@@ -16,13 +16,13 @@ Obsah souboru rozbalte do složky FoundryVTT-Data\Data\systems
 
 * Instalace modulu Dračí Hlídka vložením odkazu přes katalog - <https://raw.githubusercontent.com/DraciHlidka/draci-hlidka-foundryvtt/main/module.json>
 
+* Instalace modulu Compendium Folders vložením odkazu přes katalog - <https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/5f1600487e513770856dbca91d32f2c7bad3254f/module.json>
+
 * Instalace pomocných modulů z katalogu
 
     * CodeMirror
     
     * libWrapper
-
-    * Compendium Folders
 
 První spuštění
 --------------
