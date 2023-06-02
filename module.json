@@ -10,7 +10,7 @@
       "name":"Petr 'Barbog' Hanták"
     }
   ],
-   "version": "0.9.0",
+   "version": "0.9.1",
    "compatibility": {
     "minimum": "10",
     "verified": "10.291",
@@ -90,5 +90,5 @@
   ],
    "url": "https://www.dracihlidka.cz",
    "manifest": "https://raw.githubusercontent.com/DraciHlidka/draci-hlidka-foundryvtt/main/module.json",
-   "download": "https://github.com/DraciHlidka/draci-hlidka-foundryvtt/releases/download/v0.9.0/draci-hlidka-v0.9.0.zip"
+   "download": "https://github.com/DraciHlidka/draci-hlidka-foundryvtt/releases/download/v0.9.1/draci-hlidka-v0.9.1.zip"
  }
