@@ -138,7 +138,7 @@ Hraničář
 
 Dovednosti jako "Obratné ostří" nebo "Bojová hůl" vždy kontrolují přítomnost dané zbraně.
 
-Dovednost "Zocelení" potřebuje pustit dopočet pro pravidlo zpětné opravy - vyskočí samo při přestupu úrovně.
+Dovednost “Zocelení” potřebuje manuálně přidat "Dopočet - Zocelení" pro výpočet pravidla zpětné opravy.
 
 Bonusy za zvířecí přátele je však nutné přidat manuálně k hodu.
 
@@ -155,6 +155,8 @@ Kouzelník
 Dovednost "Rituál krve" pracuje s manou i životy.
 
 Dovednost "Paměť na kouzla" potřebuje pustit dopočet pro pravidlo zpětné opravy - vyskočí samo při přestupu úrovně.
+
+Postih za nasazenou zbroj mimo třídu lehká je započítán.
 
 Válečník
 --------
