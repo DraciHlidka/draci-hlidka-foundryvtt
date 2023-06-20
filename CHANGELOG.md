@@ -2,6 +2,10 @@ Changelog
 =========
 Změny mezi verzemi
 
+0.9.2 - Beta
+------------
+* Oprava performance u přítelíčků
+
 0.9.1 - Beta
 ------------
 * Vylepšení performance při zapnutém modulu
