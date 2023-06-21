@@ -1,8 +1,6 @@
 <img alt="Latest Release" src="https://img.shields.io/github/v/release/DraciHlidka/draci-hlidka-foundryvtt?color=7FB800"> ![GitHub all releases](https://img.shields.io/github/downloads/DraciHlidka/draci-hlidka-foundryvtt/total)<br>
 # Dračí Hlídka - modul pro VTT Foundry
 
-![drawing](img/DH_Foundry_deniky.gif)
-
 Instalace
 =========
 
@@ -36,6 +34,8 @@ Ve světě jako Game Master aktivujeme modul "Dračí Hlídka". Následně na V�
 
 Nyní máte Hlídku k dispozici a můžete začít.
 
+![deniky](img/DH_Foundry_deniky.gif)
+
 Ovládání modulu
 ===============
 
@@ -59,6 +59,8 @@ Tvorba postavy / nestvůry / přítele
 Vytvořte novou položku "Actor"  a zvolte typ vyhovující šablony. U Hráče Vás šablona provede pomocníkem. Další typy šablon jsou více volné.
 
 V případě, že se v deníku nahoře objeví symbol červeného vykřičníku, klikněte na něj a vyberte položky, které chcete postavě přiřadit (například první kouzla u kouzelníka).
+
+![nova_postava](img/DH_Foundry_deniky_nova_postava.gif)
 
 Rozdíly v deníku pro GM a Hráče
 -------------------------------
@@ -92,6 +94,8 @@ Iniciativa a boj
 
 Modul plně podporuje VTT Foundry combat tracker. To znamená, že jakmile označíte tokeny do souboje, můžete házet na iniciativu. Buď z deníku nebo přes Combat tracker.
 
+![iniciativa](img/DH_Foundry_combat_tracker.gif)
+
 Životy, mana, suroviny atd.
 ---------------------------
 
@@ -124,6 +128,8 @@ V případě, že Gamemaster dá postavě dostatek zkušeností, číslo úrovn�
 Přestup můžete řešit ručně, přetažením položek a zvednutím životů nebo zvolit automatiku.
 
 Pro automatiku jednoduše na deník postavy přetáhněte položku "Přestup úrovně - XYZ" a řiďte se pokyny. U výběru kouzel/triků/proseb/receptů však modul nehlídá, zda umíte danou školu/obor atd. Mějte to prosím na paměti.
+
+![prestup_urovne](img/DH_Foundry_deniky_levelup.gif)
 
 Povolání
 ========
