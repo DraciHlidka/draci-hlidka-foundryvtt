@@ -1,6 +1,8 @@
 <img alt="Latest Release" src="https://img.shields.io/github/v/release/DraciHlidka/draci-hlidka-foundryvtt?color=7FB800"> ![GitHub all releases](https://img.shields.io/github/downloads/DraciHlidka/draci-hlidka-foundryvtt/total)<br>
 # Dračí Hlídka - modul pro VTT Foundry
 
+![drawing](img/DH_Foundry_deniky.gif)
+
 Instalace
 =========
 
