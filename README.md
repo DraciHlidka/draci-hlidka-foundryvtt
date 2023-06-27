@@ -9,7 +9,7 @@ Náš modul obsahuje kompendium pravidel a běží nad herním systémem "Sandbo
 Požadavky
 ---------
 
-* VTT Foundry verze 10.291
+* VTT Foundry verze 10
 
 * Sandbox System Builder kompatibilní s VTT Foundry 10 - tato verze zatím není oficiálně v katalogu. Instalaci provedete jednoduše stažením souboru <https://github.com/Anderware/Foundry-Vtt-Sandbox-Macros/raw/main/Various-Files/sandbox%20dev/sandbox_0.14.0.dev_RC7_20230205024717.zip> 
 
