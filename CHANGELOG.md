@@ -1,6 +1,7 @@
 Changelog
 =========
 Změny mezi verzemi
+
 0.9.3 - Beta
 ------------
 * Podpora Foundry v11
