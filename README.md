@@ -9,21 +9,15 @@ Náš modul obsahuje kompendium pravidel a běží nad herním systémem "Sandbo
 Požadavky
 ---------
 
-* VTT Foundry verze 10
+* VTT Foundry verze 11
 
-* Sandbox System Builder kompatibilní s VTT Foundry 10 - tato verze zatím není oficiálně v katalogu. Instalaci provedete jednoduše stažením souboru <https://github.com/Anderware/Foundry-Vtt-Sandbox-Macros/raw/main/Various-Files/sandbox%20dev/sandbox_0.14.0.dev_RC7_20230205024717.zip> 
-
-Obsah souboru rozbalte do složky FoundryVTT-Data\Data\systems
+* Ganme system - Sandbox System Builder - instalace přes katalog 
 
 * Instalace modulu Dračí Hlídka vložením odkazu přes katalog - <https://raw.githubusercontent.com/DraciHlidka/draci-hlidka-foundryvtt/main/module.json>
-
-* Instalace modulu Compendium Folders vložením odkazu přes katalog - <https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/5f1600487e513770856dbca91d32f2c7bad3254f/module.json>
 
 * Instalace pomocných modulů z katalogu
 
     * CodeMirror
-    
-    * libWrapper
 
 První spuštění
 --------------
