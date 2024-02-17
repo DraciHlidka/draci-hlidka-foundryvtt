@@ -1,94 +1,91 @@
-{   
-   "id": "draci-hlidka",   
-   "title": "Dračí Hlídka (Official)",   
-   "description": "Czech language only. Kompendium modul pro hru Dračí Hlídka. Pro spuštění je třeba systém Sandbox System Builder.",   
-   "authors": [
+{
+  "id": "draci-hlidka",
+  "title": "Dračí Hlídka (Official)",
+  "description": "Czech language only. Kompendium modul pro hru Dračí Hlídka. Pro spuštění je třeba systém Sandbox System Builder.",
+  "authors": [
     {
-      "name": "Pavel 'Tirus' Ondruzs"
+      "name": "Pavel 'Tirus' Ondrusz"
     },
     {
-      "name":"Petr 'Barbog' Hanták"
+      "name": "Petr 'Barbog' Hanták"
     }
   ],
-   "version": "0.9.2",
-   "compatibility": {
+  "media": [
+    {
+      "type": "setup",
+      "caption": "Dračí Hlídka (Official)",
+      "thumbnail": "modules/draci-hlidka/assets/images/compendium_banner.svg",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "version": "0.9.3",
+  "compatibility": {
     "minimum": "10",
-    "verified": "10.291",
-    "maximum": "10"
+    "verified": "11.315",
+    "maximum": "11"
   },
-  "system": ["sandbox"],
   "relationships": {
-    "systems": [{
-      "id": "sandbox",
-      "type": "system",
-      "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/dev_0.14.0/system.json",
-      "compatibility": {
-        "verified": "0.14.0(Beta)"
+    "systems": [
+      {
+        "id": "sandbox",
+        "type": "system",
+        "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/-/raw/master/system.json",
+        "compatibility": {
+          "minimum": "0.14.4.4"
+        }
       }
-    }],
-    "requires": [{
-      "id": "lib-wrapper",
-      "type": "module",
-      "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
-      "compatibility": {
-        "minimum": "1.12.6.0",
-        "verified": "1.12.11.0"
-      }
-    },
-    {
-      "id": "compendium-folders",
-      "type": "module",
-      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json",
-      "compatibility": {
-        "verified": "2.5.6"
-      }
-    }
-  ]
+    ]
   },
-   "styles": [
-    "./styles/dh-style.css"
-	],
-  "scripts": [
-    "./scripts/dh-settings.js"
+  "styles": [
+    "styles/dh-style.css"
   ],
-   "packs": [
+  "scripts": [
+    "scripts/dh-settings.js"
+  ],
+  "packs": [
     {
       "name": "deniky",
-      "label": "Deníky postav/bytostí",
-      "system": "sandbox",
-      "path": "./packs/deniky.db",
-      "type": "Actor"
+      "label": "Deníky šablony",
+      "banner": "modules/draci-hlidka/assets/images/compendium_banner.svg",
+      "path": "packs/deniky",
+      "type": "Actor",
+      "system": "sandbox"
     },
 	{
-      "name": "bestiar",
-      "label": "Bestiář",
-      "system": "sandbox",
-      "path": "./packs/bestiar.db",
-      "type": "Actor"
+      "name": "bytosti_ppz",
+      "label": "Deníky bytostí PPZ",
+      "banner": "modules/draci-hlidka/assets/images/compendium_banner.svg",
+      "path": "packs/bytosti_ppz",
+      "type": "Actor",
+      "system": "sandbox"
     },
     {
-      "name": "pravidla",
-      "system": "sandbox",
-      "label": "Herní mechaniky + Kompendium",
-      "path": "./packs/pravidla.db",
-      "type": "Item"
+      "name": "core",
+      "label": "Herní mechaniky",
+      "banner": "modules/draci-hlidka/assets/images/compendium_banner.svg",
+      "path": "packs/core",
+      "type": "Item",
+      "system": "sandbox"
+    },
+	{
+      "name": "kompendium_ppz",
+      "label": "Kompendium PPZ",
+      "banner": "modules/draci-hlidka/assets/images/compendium_banner.svg",
+      "path": "packs/kompendium_ppz",
+      "type": "Item",
+      "system": "sandbox"
     },
     {
       "name": "manual",
       "label": "Nápověda k modulu",
-      "system": "sandbox",
-      "path": "./packs/manual.db",
-      "type": "JournalEntry"
-    },
-    {
-      "name": "makra",
-      "label": "Makra",
-      "system": "sandbox",
-      "path": "./packs/makra.db",
-      "type": "Macro"
+      "banner": "modules/draci-hlidka/assets/images/compendium_banner.svg",
+      "path": "packs/manual",
+      "type": "JournalEntry",
+      "system": "sandbox"
     }
   ],
-   "url": "https://www.dracihlidka.cz",
-   "manifest": "https://raw.githubusercontent.com/DraciHlidka/draci-hlidka-foundryvtt/main/module.json",
-   "download": "https://github.com/DraciHlidka/draci-hlidka-foundryvtt/releases/download/v0.9.2/draci-hlidka-v0.9.2.zip"
- }
+  "url": "https://www.dracihlidka.cz",
+  "manifest": "https://raw.githubusercontent.com/DraciHlidka/draci-hlidka-foundryvtt/main/module.json",
+  "download": "https://github.com/DraciHlidka/draci-hlidka-foundryvtt/releases/download/v0.9.3/draci-hlidka-v0.9.3.zip"
+}
