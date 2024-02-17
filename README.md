@@ -11,7 +11,7 @@ Požadavky
 
 * VTT Foundry verze 11
 
-* Ganme system - Sandbox System Builder - instalace přes katalog 
+* Game system - Sandbox System Builder - instalace přes katalog 
 
 * Instalace modulu Dračí Hlídka vložením odkazu přes katalog - <https://raw.githubusercontent.com/DraciHlidka/draci-hlidka-foundryvtt/main/module.json>
 
