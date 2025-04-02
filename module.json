@@ -19,7 +19,7 @@
       "flags": {}
     }
   ],
-  "version": "0.9.3",
+  "version": "0.9.4",
   "compatibility": {
     "minimum": "10",
     "verified": "11.315",
@@ -46,7 +46,7 @@
   "packs": [
     {
       "name": "deniky",
-      "label": "Deníky šablony",
+      "label": "_TEMPLATES",
       "banner": "modules/draci-hlidka/assets/images/compendium_banner.svg",
       "path": "packs/deniky",
       "type": "Actor",
@@ -54,7 +54,7 @@
     },
 	{
       "name": "bytosti_ppz",
-      "label": "Deníky bytostí PPZ",
+      "label": "Bestiář PPZ",
       "banner": "modules/draci-hlidka/assets/images/compendium_banner.svg",
       "path": "packs/bytosti_ppz",
       "type": "Actor",
@@ -62,7 +62,7 @@
     },
     {
       "name": "core",
-      "label": "Herní mechaniky",
+      "label": "_HERNÍ_MECHANIKY",      
       "banner": "modules/draci-hlidka/assets/images/compendium_banner.svg",
       "path": "packs/core",
       "type": "Item",
@@ -73,6 +73,14 @@
       "label": "Kompendium PPZ",
       "banner": "modules/draci-hlidka/assets/images/compendium_banner.svg",
       "path": "packs/kompendium_ppz",
+      "type": "Item",
+      "system": "sandbox"
+    },
+        {
+      "name": "kompendium_ppp",
+      "label": "Kompendium PPP",
+      "banner": "modules/draci-hlidka/assets/images/compendium_banner.svg",
+      "path": "packs/kompendium_ppp",
       "type": "Item",
       "system": "sandbox"
     },
@@ -87,5 +95,5 @@
   ],
   "url": "https://www.dracihlidka.cz",
   "manifest": "https://raw.githubusercontent.com/DraciHlidka/draci-hlidka-foundryvtt/main/module.json",
-  "download": "https://github.com/DraciHlidka/draci-hlidka-foundryvtt/releases/download/v0.9.3/draci-hlidka-v0.9.3.zip"
+  "download": "https://github.com/DraciHlidka/draci-hlidka-foundryvtt/releases/download/v0.9.4/draci-hlidka-v0.9.4.zip"
 }
