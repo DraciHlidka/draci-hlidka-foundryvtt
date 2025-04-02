@@ -43,9 +43,10 @@ Modul rozlišuje dva typy položek. Co je viditelné pro Gamemastera a co pro Hr
 | Složka | Typ | Viditelnost| Popis |
 |--|--|--|--|
 | _TEMPLATES | Actor - systémová | GM | Obsahuje šablony pro typy deníku |
-| BESTIÁŘ | Actor | GM | Obsahuje bestiář, doporučujeme položky klonovat pro vlastní použití. |
+| Bestiář PPZ | Actor | GM | Obsahuje PPZ bestiář, doporučujeme položky klonovat pro vlastní použití. |
 | _HERNÍ_MECHANIKY | Items - systémová | GM | Obsahuje všechnu mechaniku, kolem deníků. |
-| KOMPENDIUM | Items | GM & Hráči | Obsahuje položky kompendia (předměty, dovednosti, kouzla, atd.) |
+| Kompendium PPZ | Items | GM & Hráči | Obsahuje položky PPZ kompendia (předměty, dovednosti, kouzla, atd.) |
+| Kompendium PPP | Items | GM & Hráči | Obsahuje položky PPP kompendia (předměty, dovednosti, kouzla, atd.) |
 
 Tvorba postavy / nestvůry / přítele
 -----------------------------------
@@ -129,6 +130,12 @@ Povolání
 ========
 
 Zde uvádíme jen speciality pro dané povolání.
+
+PPP - Berserkr, Rytíř a Šermíř
+----------
+
+Přiřazení této specializace provedete přetažením daného povolání na deník postavy.
+
 
 Alchymista
 ----------
